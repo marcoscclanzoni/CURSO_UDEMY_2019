@@ -6,7 +6,7 @@ namespace AloMundo
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Alo Mundo");
         }
     }
 }
