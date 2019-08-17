@@ -13,15 +13,15 @@ namespace ConsoleApplication2
             string z = "Maria";
             char w = 'F';
 
-            Console.Write("Olá mundo!");
+            Console.Write("Olá mundo!"); // escreve texto Ola Mundo
             Console.WriteLine("Bom dia!");
             Console.WriteLine("Até mais.");
 
             Console.WriteLine();
             Console.WriteLine(x);
-            Console.WriteLine(x.ToString("F2"));
-            Console.WriteLine(x.ToString("F4"));
-            Console.WriteLine(x.ToString("F2", CultureInfo.InvariantCulture));
+            Console.WriteLine(x.ToString("F2")); // f2 deixa o numero com 2 casas apos o ponto
+            Console.WriteLine(x.ToString("F4")); // f4 deixa o numero com 4 casas apos ponto
+            Console.WriteLine(x.ToString("F2", CultureInfo.InvariantCulture)); // aqui temos a troca do ponto por virgula
 
             Console.WriteLine();
             Console.WriteLine("RESULTADO = " + x);
