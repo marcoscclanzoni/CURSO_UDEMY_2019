@@ -14,7 +14,7 @@ namespace ConsoleApplication2
             char w = 'F';
 
             Console.Write("Olá mundo!"); // escreve texto Ola Mundo
-            Console.WriteLine("Bom dia!");
+            Console.WriteLine("Bom dia!"); // acima sem quebra de linha
             Console.WriteLine("Até mais.");
 
             Console.WriteLine();
