@@ -12,7 +12,7 @@ namespace Saida_dados_2
             // Placeholders
             Console.WriteLine("{0} tem {1} anos e tem saldo igual a {2:F2} reais ", nome, idade, saldo);
             // Interpolação
-            Console.WriteLine($"{nome} tem {idade} anos e tem saldo de {saldo:F2} reais");
+            Console.WriteLine($" teste {nome} tem {idade} anos e tem saldo de {saldo:F2} reais");
             // Concatenação
             Console.WriteLine(nome + " tem " + idade + " anos e tem saldo de " + saldo.ToString("F2") + " reais ");
 
