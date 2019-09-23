@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace AloMundo
 {
@@ -7,6 +7,10 @@ namespace AloMundo
         static void Main(string[] args)
         {
             Console.WriteLine("Alo Mundo");
+						/*
+						inserido comentarios de multiplas linhas 
+						*/
+
         }
     }
 }
